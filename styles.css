@@ -1,0 +1,79 @@
+/* Type */
+
+body {
+	background-color: #E6E6FA;
+	color: #00008B;
+	font-family: sans-serif;
+	line-height: 2em;
+    font-size: 5em;
+    text-shadow: 10px 10px teal;
+    opacity: 2;
+}
+
+main{
+	transform: scale(-1) skew(-10deg,10deg);
+	height: 200vh;
+}
+.letter1{
+	position: absolute;
+	bottom: -231px;
+	right: 131px;
+	font-size: 10em;
+	line-height: 0.95;
+	font-weight: 600;
+	font-size: 40em;
+	transform: scale(-1,-5) rotate(95deg);
+	letter-spacing: -7px;
+}
+.letter2{
+	position: absolute;
+	right: -0.25em;
+	bottom: 3em;
+	transform: rotate(-120deg) scaleY(9.5);
+	text-transform: uppercase;
+	font-style: bold;
+	line-height: 10;
+	letter-spacing: 20px;
+	color: #00008B
+
+}
+
+.letter3{
+	text-align: center;
+	font: 62px/100px arial;
+	text-transform: capitalize;
+	text-align: center;
+	overflow: hidden;
+	color: white;
+	position: absolute;
+	bottom: -45px;
+	right: 455px;
+	transform: rotate(-90deg);
+	z-index: 1;
+}
+
+.rainbows{
+	position: absolute;
+	left: -50px;
+	z-index: -1;
+	transform: scaleY(3.5);
+	text-shadow: 3px 3px 3px rgba (white, 0.5);
+  	height: 150px;
+  	width: 150px;
+  	margin-left: -100px;
+  	
+}
+
+.word2{
+	font-family: georgia;
+	letter-spacing: 10px;
+	text-shadow: 109px 3px orange;
+	filter: blur(33px);
+	font-size: 10em;
+	color: #9400D3;
+	z-index: 3;
+	top: 5em;
+	transform: rotate(90deg) scaleY(6.5);
+	text-transform: lowercase;
+	word-spacing: 30px;
+}
